@@ -46,3 +46,28 @@
   background-color: hsl(195deg, 20%, 86%);
   bottom: 0px;
 }
+
+@media (max-width: 500px) {
+  .header {
+    display: none;
+  }
+  .characterWrapper {
+    left: 0px;
+    height: 300px;
+    top: 10px;
+  }
+  .controlColumn {
+    position: relative;
+    z-index: 10;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .maxWidthWrapper {
+    overflow-x: auto;
+  }
+  .characterEditor {
+    padding-bottom: 10px;
+  }
+}
